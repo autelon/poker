@@ -12,3 +12,4 @@
 | 2026-10-04 | 설립 | 항목별 Notion ID 위치 | `notion/ids.json`(커밋 안 함)에 둔다. board/*.json·PRD의 notion_id는 비워 둔다 | `.gitignore`에 추가, first-run notion-sync 지시문에 반영 |
 | 2026-10-04 | 설립 | 개인 리소스 정보 공개 여부 | 로컬 절대 경로와 Notion URL·ID는 커밋하지 않는다. 다른 저장소는 GitHub 이름으로 가리키고, 로컬 클론 위치는 `local/paths.json`(커밋 안 함)에 둔다 | `.gitignore`에 `local/` 추가, 커밋 전 `git diff --cached`로 로컬 절대 경로와 Notion 도메인 검사 |
 | 2026-10-04 | 설립 | Notion 루트 페이지 | 사용자 설정(`pluginConfigs`)의 값을 쓴다(사람이 읽기를 허락함). 그 아래에 Poker 페이지와 Milestones·PRDs·Tasks DB, Tasks 보드 뷰 2개를 만들었다 | ID는 `notion/config.json`(커밋 안 함) |
+| 2026-10-04 | 설립 | GitHub 저장소 표준 적용 | 승인. `setup-repo.sh`로 merge commit만 허용, auto-merge·Update branch·브랜치 자동 삭제, main ruleset(삭제·force push 금지, PR 필수, 필수 검사 `git-policy / merge-commits`, 머지 큐) | `docs/git-rules.md` 자리표시자 채움 |
