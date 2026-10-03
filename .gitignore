@@ -9,3 +9,4 @@ local/
 state/quota.json
 # role 메모리. 로컬에만 둔다
 .claude/agent-memory/
+.claude/agent-memory-local/
