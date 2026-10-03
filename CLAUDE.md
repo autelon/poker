@@ -18,6 +18,7 @@
 | `handoffs/`                                 | role 작업 결과                   |
 | `decisions/log.md`                          | 사람의 결정 기록                 |
 | `docs/goals.md`                             | 프로젝트 목표와 지표 체계        |
+| `docs/first-run.md`                         | 설립 직후 점검 결과              |
 | `analytics/`                                | 이벤트 명세, 분석 쿼리 (da)      |
 | `state/`                                    | 사용량 스냅샷, 스프린트 인계     |
 | `notion/config.json`, `notion/ids.json`     | Notion 페이지·DB, 항목별 Notion ID (커밋 안 함) |
