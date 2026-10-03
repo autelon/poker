@@ -18,7 +18,7 @@
 | 2026-10-04 | PR #1 보안 검토 후속 | 재사용 워크플로를 SHA로 고정할지 | 조직 표준(autelon/.github) 차원의 일이라 이 프로젝트에서 정하지 않음 | 사람에게 보고 |
 | 2026-10-04 | PR #2 보안 검토 후속 | `state/quota.json`(플랜·사용률)을 커밋할지 | 커밋하지 않는다. 재무 판정 스크립트의 입력일 뿐 올릴 필요가 없다 | `.gitignore`에 추가 |
 | 2026-10-04 | 설립 후속 | role 메모리(`.claude/agent-memory/`)를 커밋할지 | 커밋하지 않는다 | `.gitignore`에 추가 |
-| 2026-10-04 | 설립 후속 | `.gitignore`를 플러그인 템플릿(autelon/company#9 반영)과 맞춤 | `.claude/agent-memory-local/` 추가 | PR #2 리뷰 handoff도 함께 커밋 |
+| 2026-10-04 | 설립 후속 | `.gitignore`를 플러그인 템플릿(autelon/company#9 반영)과 맞춤 | `.claude/agent-memory-local/` 추가 | |
 | 2026-10-04 | 저장소 정리 | 예전 커밋에 남은 홈 디렉터리 기준 경로와 force push 전 커밋 처리 | 저장소를 지우고 다시 만든다(사람의 결정). 히스토리는 설립 커밋을 루트로 다시 썼고, 경로는 repo 루트 기준 상대 경로나 저장소 이름으로만 쓴다 | 이 기록의 PR #1~#3, PR 코멘트 링크, 커밋 SHA는 지운 저장소를 가리킨다 |
 | 2026-10-04 | 저장소 정리 | 전역 Git 표준 문서 위치 | `autelon/.github`의 `git-workflow.md`로 옮긴다(사람의 결정) | `docs/git-rules.md`가 그 문서를 가리킨다 |
 | 2026-10-04 | 기록 정리 | 무엇을 decisions와 handoffs에 남길지 | decisions에는 사람이 정한 것만 둔다. 점검 결과는 `docs/first-run.md`에 짧게 쓴다. 리뷰·보안 검토 결과는 PR 코멘트가 기록이고 그 handoff는 커밋하지 않는다 | first-run 관찰 행과 PR #1~#3 리뷰 handoff를 지움(지운 저장소의 기록이라 git 히스토리에만 남음) |
