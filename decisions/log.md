@@ -29,3 +29,6 @@
 | 2026-10-04 | PR #2 보안 검토 후속 | finance role 메모리(사용률 포함)를 커밋할지 | finance 메모리 전체를 커밋하지 않는다 | `.gitignore`에 `.claude/agent-memory/autelon-finance/` 추가 |
 | 2026-10-04 | PR #2 후속 | role 메모리 전체를 커밋할지 | 커밋하지 않는다(앞의 "둘 다 커밋"과 finance 메모리 결정을 바꿈). PR handoff는 커밋한다 | `.gitignore`에 `.claude/agent-memory/`. 다른 프로젝트에도 반영되도록 autelon/company에 이슈를 남김 |
 | 2026-10-04 | first-run 후속 | `.gitignore`를 플러그인 템플릿(autelon/company#9 반영)과 맞춤 | `.claude/agent-memory-local/` 추가 | PR #2 리뷰 handoff도 함께 커밋 |
+| 2026-10-04 | first-run 6 후속 | Notion의 M-00 삭제 | 사람이 지웠고 director가 Notion에서 삭제 상태를 확인함 | 스모크 정리 끝 |
+| 2026-10-04 | 저장소 정리 | 예전 커밋에 남은 홈 디렉터리 기준 경로와 force push 전 커밋 처리 | 저장소를 지우고 다시 만든다(사람의 결정). 히스토리는 설립 커밋을 루트로 다시 썼고, 경로는 repo 루트 기준 상대 경로나 저장소 이름으로만 쓴다 | 이 기록의 PR #1~#3, PR 코멘트 링크, 커밋 SHA는 지운 저장소를 가리킨다 |
+| 2026-10-04 | 저장소 정리 | 전역 Git 표준 문서 위치 | `autelon/.github`의 `git-workflow.md`로 옮긴다(사람의 결정) | `docs/git-rules.md`가 그 문서를 가리킨다 |
