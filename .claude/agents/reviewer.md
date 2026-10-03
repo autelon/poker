@@ -31,7 +31,7 @@ tools: Read, Glob, Grep, Bash, Write
 PR 리뷰어
 
 - 이 프로젝트의 PR 리뷰어는 reviewer role이다(`docs/git-rules.md`). 판정을 PR 코멘트로 남긴다(`gh pr comment`). 계정이 하나라 GitHub 승인(approve)은 쓰지 않는다.
-- `PASS`이면 `docs/git-rules.md`의 머지 명령을 리뷰한 head sha로 낸다: `gh pr merge <PR> --match-head-commit <sha>`. `--admin`은 쓰지 않는다.
+- `PASS`이고 같은 head sha에 `보안 검토: 통과 (<sha>)` 코멘트(`autelon:security-reviewer`)가 있을 때만 `docs/git-rules.md`의 머지 명령을 그 sha로 낸다: `gh pr merge <PR> --match-head-commit <sha>`. 보안 검토 통과가 없거나 다른 sha에 대한 것이면 머지하지 않고 handoff에 적는다. `--admin`은 쓰지 않는다.
 - 자기가 작성한 PR은 머지하지 않는다.
 
 출력
