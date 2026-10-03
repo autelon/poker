@@ -4,3 +4,8 @@
 # 개인 리소스 연결 정보(공개 저장소라 커밋하지 않음)
 notion/
 local/
+.env*
+# 재무 판정 스크립트 입력(사용량 스냅샷). 저장소에 올릴 필요 없음
+state/quota.json
+# role 메모리. 로컬에만 둔다
+.claude/agent-memory/
