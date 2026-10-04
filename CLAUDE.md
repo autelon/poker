@@ -30,6 +30,5 @@
 | `analytics/`               | 이벤트 명세, 분석 쿼리 (da)                                                                    |
 | `state/`                   | 사용량 스냅샷(`quota.json`, 커밋하지 않음)                                                     |
 | `local/`                   | 로컬 매핑, 이슈 본문·코멘트 초안, 이슈 백업. 커밋하지 않음                                     |
-| `notion/`                  | 예전 Notion 연결 정보. 쓰지 않음, 커밋하지 않음                                                |
 | `docs/git-rules.md`        | 저장소 설정, PR 리뷰어, 보안 검토·머지 조건(공통 절차는 `autelon/.github`의 `git-workflow.md`) |
 | `.github/workflows/ci.yml` | 필수 검사                                                                                      |
